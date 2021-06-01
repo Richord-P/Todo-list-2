@@ -1,0 +1,112 @@
+.tachar{
+	text-decoration: line-through;
+}
+
+h2{
+	font-family: 'Chango';
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+.taskInput{
+	align-content: center;
+}
+
+#todo-list{
+	font-family: 'Chango';
+	text-align: center;
+	font-size: 50px;
+	color: #ffff;
+	
+}
+#checkAll{
+	font-size: 50px;
+}
+
+#uncheckAll{
+	font-size: 50px;
+}
+#deleteAll{
+	font-size: 50px;
+}
+
+#hide_list{
+	font-size: 50px;
+}
+#show_list{
+	font-size: 50px;
+}
+
+.contenedorTodo{
+	width: 100%;
+	max-width: 1000px;
+	background-image: url("https://i.imgur.com/ENfVAgW.gif");
+
+}
+.flexContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.displayNone{
+	display: none !important;
+}
+.c_verde{
+	color: green;
+}
+
+
+.container1{
+	color: white;
+		display: flex;
+	justify-content: center;
+
+}
+
+.container2{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	overflow-y: scroll;
+	background-color: rgb(126, 189, 194,0.5);
+}
+
+
+
+.listItem{
+
+	font-size: 40px;
+	text-align: left;
+	list-style: none;
+}
+
+#todo-list{
+	padding-top: 40px;
+
+}
+
+#taskInput{
+	width: 40%;
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+li {
+
+	list-style: none;
+	
+}
+
+.filtros{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	padding: 20px;
+	color: white;
+}
+
